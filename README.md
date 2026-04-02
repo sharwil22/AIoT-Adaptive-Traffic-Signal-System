@@ -1,6 +1,6 @@
 # AIoT-Adaptive-Traffic-Signal-System
 
-## 🎥 Demo Video
+## 🎥 Demo Video (OUTPUT VIDEO)
 👉 [Watch Demo](https://drive.google.com/file/d/1FMBXMYgWmxljm3ESb5XbIuJrRhrQ5dTw/view?usp=share_link)
 
 
