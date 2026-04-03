@@ -1,53 +1,64 @@
-# AIoT-Adaptive-Traffic-Signal-System
+# 🚦 AIoT Adaptive Traffic Signal System
 
-## 🎥 Demo Video (OUTPUT VIDEO)
-👉 [Watch Demo](https://drive.google.com/file/d/1FMBXMYgWmxljm3ESb5XbIuJrRhrQ5dTw/view?usp=share_link)
+An AI-powered traffic management system that dynamically adjusts signal timing using real-time vehicle detection.
 
-
+---
 
 ## 📌 Overview
-This project focuses on optimizing traffic signal timing using computer vision. Traditional traffic systems use fixed timers, which often lead to congestion and inefficiency.
 
-This system uses YOLOv5 for real-time vehicle detection and adjusts signal timing dynamically based on traffic density.
+Traditional traffic systems rely on fixed timers, which often lead to congestion, inefficient traffic flow, and increased waiting time.
 
----
-
-## 🚨 Problem
-- Fixed traffic signals do not adapt to real-time conditions  
-- Leads to congestion and unnecessary waiting  
-- Can cause unsafe behavior like signal jumping  
+This project leverages **Computer Vision + AIoT** to detect vehicles in real time and adapt traffic signals based on traffic density.
 
 ---
 
-## 💡 Solution
-- Detect vehicles using YOLOv5  
-- Estimate traffic density from video frames  
-- Adjust signal timing dynamically using rule-based logic  
+## 🎥 Demo Video (IMPORTANT)
+
+👉 **Watch Full Working Demo:**  
+🔗 https://drive.google.com/file/d/1FMBXMYgWmxljm3ESb5XbIuJrRhrQ5dTw/view?usp=share_link
+
+> ⚠️ *This video demonstrates the real-time detection and adaptive signal behavior. Highly recommended to view.*
 
 ---
 
-## ⚙️ How It Works
+## 🚨 Problem Statement
 
-1. Input video from traffic camera  
-2. YOLOv5 detects vehicles (cars, bikes, buses)  
-3. Count vehicles in frame / region  
-4. Calculate traffic density  
-5. Apply rule-based logic:
-   - Higher density → longer green signal  
-   - Lower density → shorter signal  
+- Fixed signal timers do not adapt to real-time traffic  
+- Causes unnecessary waiting and congestion  
+- Leads to inefficient traffic flow and fuel wastage  
+- Can result in unsafe driving behavior  
 
 ---
 
+## 💡 Proposed Solution
 
+- Real-time vehicle detection using **YOLOv5**
+- Traffic density estimation from live/video input
+- Dynamic signal timing using rule-based logic
 
-## 📸 Output
+---
 
-![Detection](output.jpg) https://drive.google.com/file/d/12161vvpzjgeTrA3WOmB-oysU_USw2CWS/view?usp=share_link
+## ⚙️ Working Pipeline
 
+1. Capture input from traffic camera / video feed  
+2. Apply YOLOv5 for vehicle detection  
+3. Detect objects (cars, bikes, buses, etc.)  
+4. Count number of vehicles in frame  
+5. Calculate traffic density  
+6. Adjust signal timing dynamically:
+   - High density → Longer green signal  
+   - Low density → Shorter green signal  
+
+---
+
+## 📸 Output (Detection Result)
+
+![Traffic Detection](traffic detection.jpg)
 
 ---
 
 ## 🛠️ Tech Stack
+
 - Python  
 - YOLOv5  
 - OpenCV  
@@ -56,22 +67,41 @@ This system uses YOLOv5 for real-time vehicle detection and adjusts signal timin
 ---
 
 ## 📊 Results
-- Improved traffic flow efficiency compared to fixed-timer systems  
-- Demonstrates practical application of computer vision in smart city systems  
+
+- Improved traffic flow compared to static systems  
+- Reduced unnecessary waiting time  
+- Demonstrates real-world application of AI in smart cities  
 
 ---
 
-## 📄 Research Connection
-This project is supported by a research study comparing YOLOv5, YOLOv8, Faster R-CNN, and SSD for vehicle detection in Indian traffic scenarios.
+## 📄 Research Relevance
+
+This project aligns with comparative research on object detection models including:
+
+- YOLOv5  
+- YOLOv8  
+- Faster R-CNN  
+- SSD  
+
+Focused on performance in **real-world Indian traffic conditions**
 
 ---
 
 ## 🚀 Future Scope
-- Real-time CCTV integration  
-- AI-based adaptive signal optimization  
+
+- Integration with live CCTV feeds  
+- Reinforcement learning-based signal optimization  
+- Multi-intersection coordination  
 - Smart city deployment  
 
 ---
 
 ## 👨‍💻 Author
-Sharwil Bhende
+
+**Sharwil Bhende**
+
+---
+
+## ⚠️ Note
+
+This project is developed for academic and portfolio purposes under AIoT (Smart Cities domain).
