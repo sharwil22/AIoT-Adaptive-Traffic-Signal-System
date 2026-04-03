@@ -53,7 +53,7 @@ This project leverages **Computer Vision + AIoT** to detect vehicles in real tim
 
 ## 📸 Output (Detection Result)
 
-![Traffic Detection](traffic detection.jpg)
+![Traffic Detection](traffic_detection.jpg)
 
 ---
 
