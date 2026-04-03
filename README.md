@@ -17,7 +17,7 @@ This project leverages **Computer Vision + AIoT** to detect vehicles in real tim
 👉 **Watch Full Working Demo:**  
 🔗 https://drive.google.com/file/d/1FMBXMYgWmxljm3ESb5XbIuJrRhrQ5dTw/view?usp=share_link
 
-> ⚠️ *This video demonstrates the real-time detection and adaptive signal behavior. Highly recommended to view.*
+>  *This video demonstrates the real-time detection and adaptive signal behavior. Highly recommended to view.*
 
 ---
 
@@ -102,6 +102,4 @@ Focused on performance in **real-world Indian traffic conditions**
 
 ---
 
-## ⚠️ Note
 
-This project is developed for academic and portfolio purposes under AIoT (Smart Cities domain).
