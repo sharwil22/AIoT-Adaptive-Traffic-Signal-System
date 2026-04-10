@@ -1,6 +1,6 @@
 # 🚦 AIoT Adaptive Traffic Signal System
 
-An AI-powered traffic management system that dynamically adjusts signal timing using real-time vehicle detection.
+An AI-powered traffic management system that dynamically adjusts signal timing using real-time vehicle detection.gfg 
 
 ---
 
